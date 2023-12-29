@@ -13,7 +13,7 @@ function addTask(){
  console.log(input.value)
  item.innerText= input.value;
 
- ul.appendChild(item);
+ ul.append(item);
 let delbtn = document.createElement("button");
  delbtn.innerText="X";
 item.appendChild(delbtn)

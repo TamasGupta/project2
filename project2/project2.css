@@ -13,9 +13,12 @@ input{
 
 }
 .container{
+     
     border: 2px solid black;
     margin-left: 12px;
     padding: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 .inp{
     display: flex;
@@ -39,4 +42,11 @@ li{
     justify-content: space-between;
     
 
+}
+@media screen and (min-width:400px) {
+    .container{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    
 }
