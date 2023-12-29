@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px 5%;
+   
+}
+.Add{
+    padding: 5px 5%;
+    
+
+}
+.container{
+    border: 2px solid black;
+    margin-left: 12px;
+    padding: 5px;
+}
+.inp{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+ul{
+   
+  margin-left: 120px;
+  margin-right: 120px;
+    list-style: none;
+    text-align: center;
+
+}
+li{
+    border: 2px solid purple;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
